@@ -68,8 +68,8 @@ Application Programming Interface.
 
 ## 이벤트 리스너
 
-- `el.addEventListener(callback)` - 이벤트 리스너 등록
-- `el.removeEventListener(callback)` - 이벤트 리스너 제거
+- `el.addEventListener(eventName, callback)` - 이벤트 리스너 등록
+- `el.removeEventListener(eventName, callback)` - 이벤트 리스너 제거
 
 ---
 
