@@ -21,6 +21,15 @@ Application Programming Interface.
 
 ---
 
+## 실습 예제
+
+- [Counter 실습](https://codepen.io/dbeat999/pen/JmJmGa)
+- [Drag & Drop 실습](https://codepen.io/dbeat999/pen/LgLgVg)
+- [Form Scripting 실습](https://codepen.io/dbeat999/pen/bMBpdE)
+- [Capturing & Bubbling 실습](https://codepen.io/dbeat999/pen/GyEmYG)
+
+---
+
 ## 요소 선택하기
 
 - `document.querySelector(selector)` - CSS 선택자를 통해 **단일 요소** 가져오기
@@ -121,20 +130,6 @@ Application Programming Interface.
 
 ---
 
-## 이벤트 전파
-
-![inline](./images/eventphases.png)
-
-- 버블링이 일어나는 이벤트도 있고, 일어나지 않는 이벤트도 있음 (submit, focus, blur, change 등)
-
-<!--
-참고 링크
-- https://stackoverflow.com/questions/5574207/html-dom-which-events-do-not-bubble
-- https://www.quirksmode.org/js/events_order.html
--->
-
----
-
 ## 이벤트 객체
 
 - `e.target` - 실제로 이벤트를 일으킨 요소
@@ -176,3 +171,24 @@ Application Programming Interface.
 ## 스크롤 이벤트
 
 - `scroll`
+
+---
+
+## 이벤트 전파
+
+![inline](./images/eventphases.png)
+
+- 버블링이 일어나는 이벤트도 있고, 일어나지 않는 이벤트도 있음 (submit, focus, blur, change 등)
+
+<!--
+참고 링크
+- https://stackoverflow.com/questions/5574207/html-dom-which-events-do-not-bubble
+- https://www.quirksmode.org/js/events_order.html
+-->
+
+<!--
+Form validation 참고 링크
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation
+https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/reportValidity
+https://www.sitepoint.com/html5-forms-javascript-constraint-validation-api/
+ -->
