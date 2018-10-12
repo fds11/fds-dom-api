@@ -153,24 +153,23 @@ Application Programming Interface.
 
 ## 마우스 이벤트
 
-- `click` / `dblclick`
-- `mouseover` / `mouseout`
-- `mousedown` / `mouseup`
-- `mousemove`
+- `click` / `dblclick` - 마우스 클릭 / 더블클릭
+- `mouseover` / `mouseout` - 요소에 마우스 포인터가 들어왔을 때 / 나갔을 때
+- `mousedown` / `mouseup` - 요소 위에서 마우스 버튼을 눌렀을 때 / 놓았을 때
+- `mousemove` - 요소 위에서 마우스 포인터가 움직일 때마다
 
 ---
 
 ## 키보드 이벤트
 
-- `keydown`
-- `keyup`
-- `keypress`
+- `keydown` / `keyup` - 키보드 버튼을 눌렀을 때 / 놓았을 때
+- `keypress` - 문자가 입력되었을 때
 
 ---
 
 ## 스크롤 이벤트
 
-- `scroll`
+- `scroll` - 요소 내부의 콘텐츠가 스크롤될 때마다
 
 ---
 
