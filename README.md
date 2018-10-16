@@ -133,7 +133,7 @@ Application Programming Interface.
 ## 이벤트 객체
 
 - `e.target` - 실제로 이벤트를 일으킨 요소
-- `e.currentTarget` - 이벤트 전파 과정 중 현재 이벤트가 위치한 요소
+- `e.currentTarget` - 이벤트 전파 과정 중 현재 이벤트가 위치한 요소 (즉, 해당 이벤트 리스너가 등록되어 있는 요소)
 - `e.stopPropagation()` - 이벤트 전파 과정을 멈추기
 - `e.preventDefault()` - 이벤트가 일으키는 브라우저의 기본 동작과정을 취소하기
 
