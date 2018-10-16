@@ -145,7 +145,7 @@ Application Programming Interface.
 - `input` - text 타입을 갖는 input 요소나 textarea 요소의 값이 변경되었을 때 발생
 - `focus` - 키보드 포커스가 해당 요소에 옮겨졌을 때 발생
 - `blur` - 키보드 포커스가 해당 요소에서 벗어났을 때 발생
-- `submit` - 폼 전송이 일어났을 때 발생
+- `submit` - 폼 전송이 일어났을 때 발생 (폼 내부에서 엔터 키가 입력되었을 때에도 발생)
 
 <!-- https://httpbin.org/ -->
 
